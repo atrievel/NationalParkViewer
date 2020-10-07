@@ -45,6 +45,7 @@ Please read: Contributing.md
 ## Contributors
 
 * [Alec Trievel](https://github.com/atrievel)
+* [Nikolaj Dyring](https://github.com/NikoDyring)
 
 ## Questions
 
