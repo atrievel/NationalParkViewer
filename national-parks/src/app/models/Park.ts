@@ -4,25 +4,26 @@ import { Contact } from './Contact';
 import { EntranceFee } from './EntranceFee';
 import { EntrancePass } from './EntrancePass';
 import { Image } from './Image'
+import { OperatingHours } from './OperatingHour';
 
 export interface Park {
     activities: Activity[];
     addresses: Address[];
-    contact: Contact[]
+    contact: Contact[];
     description: string;
     designation: string;
     directionsInfo: string;
     directionsUrl: string;
-    entranceFees: EntranceFee[]
-    entrancePasses: EntrancePass[]
+    entranceFees: EntranceFee[];
+    entrancePasses: EntrancePass[];
     fullName: string;
     id: string;
-    images: Image[]
+    images: Image[];
     latLong: string;
     latitude: string;
     longitude: string;
     name: string;
-    //operatingHours TODO: create interface for this;
+    operatingHours: OperatingHours[];
     parkCode: string;
     states: string;
     url: string;
