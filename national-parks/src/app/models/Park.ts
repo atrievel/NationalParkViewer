@@ -1,5 +1,7 @@
+import { Activity } from './Activity';
+
 export interface Park {
-    // activities: TODO: create interface for this;
+    activities: Activity[]
     // addresses: TODO: create interface for this;
     // contacts: TODO: create interface for this;
     description: string;
