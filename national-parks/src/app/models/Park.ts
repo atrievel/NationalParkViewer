@@ -1,10 +1,11 @@
 import { Activity } from './Activity';
 import { Address } from './Address';
+import { Contact } from './Contact';
 
 export interface Park {
     activities: Activity[];
     addresses: Address[];
-    // contacts: TODO: create interface for this;
+    contact: Contact[]
     description: string;
     designation: string;
     directionsInfo: string;
