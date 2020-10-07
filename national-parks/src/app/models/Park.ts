@@ -1,21 +1,29 @@
+import { Activity } from './Activity';
+import { Address } from './Address';
+import { Contact } from './Contact';
+import { EntranceFee } from './EntranceFee';
+import { EntrancePass } from './EntrancePass';
+import { Image } from './Image'
+import { OperatingHours } from './OperatingHours';
+
 export interface Park {
-    // activities: TODO: create interface for this;
-    // addresses: TODO: create interface for this;
-    // contacts: TODO: create interface for this;
+    activities: Activity[];
+    addresses: Address[];
+    contact: Contact[];
     description: string;
     designation: string;
     directionsInfo: string;
     directionsUrl: string;
-    //entranceFees: TODO: create interface for this;
-    //entrancePasses: TODO: create interface for this;
+    entranceFees: EntranceFee[];
+    entrancePasses: EntrancePass[];
     fullName: string;
     id: string;
-    //images: TODO: create interface for this;
+    images: Image[];
     latLong: string;
     latitude: string;
     longitude: string;
     name: string;
-    //operatingHours TODO: create interface for this;
+    operatingHours: OperatingHours[];
     parkCode: string;
     states: string;
     url: string;
