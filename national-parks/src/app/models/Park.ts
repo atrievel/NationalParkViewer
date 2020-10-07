@@ -4,7 +4,7 @@ import { Contact } from './Contact';
 import { EntranceFee } from './EntranceFee';
 import { EntrancePass } from './EntrancePass';
 import { Image } from './Image'
-import { OperatingHours } from './OperatingHour';
+import { OperatingHours } from './OperatingHours';
 
 export interface Park {
     activities: Activity[];
