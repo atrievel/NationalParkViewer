@@ -1,5 +1,5 @@
 export interface EntranceFee {
-  cost: string,
-  description: string,
+  cost: string;
+  description: string;
   title: string
 }

@@ -4,14 +4,14 @@ export interface Contact {
 }
 
 interface PhoneNumber {
-  phoneNumber: string,
-  description: string,
-  extension: string,
+  phoneNumber: string;
+  description: string;
+  extension: string;
   type: Type
 }
 
 interface EmailAddress {
-  emailAddress: string,
+  emailAddress: string;
   description: string
 }
 
