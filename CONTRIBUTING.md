@@ -4,6 +4,14 @@ When contributing to this repository, please first discuss the change you wish t
 
 Please note I have a code of conduct to keep everyone safe and happy, so please follow it in all your interactions with the project.
 
+## Prerequisites
+
+1. [Sign up for Hacktoberfest](https://hacktoberfest.digitalocean.com/)
+2. Fork this repo
+3. Submit a pull request (see guidlines below)
+4. Give this project a star if you liked working on it, and share it as much as you can with people new to open source development
+5. Follow my GitHub profile and I'll follow back!
+
 ## Pull Request Process
 
 1. Follow the instructions in the open issue. Any request that attempts to solve more than what was requested will be rejected (i.e. keep your commits small)
