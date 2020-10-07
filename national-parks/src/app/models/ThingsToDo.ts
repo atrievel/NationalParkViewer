@@ -1,26 +1,31 @@
+import { RelatedParks } from './RelatedParks';
+import { Images } from './Images';
+import { Activities } from './Activities';
+import { Topics } from './Topics';
+
 export interface ThingsToDo {
     location: string;
     seasonDescription: string;
     accessibilityInformation: string;
     longitude: string;
-    //relatedParks	TODO: create interface for this;
+    relatedParks: RelatedParks[];
     isReservationRequired: boolean;
     ageDescription: string;
     url: string;
     petsDescription: string;
     timeOfDayDescription: string;
-    //images	TODO: create interface for this;
+    images: Images[];
     feeDescription: string;
-    id: string; 
-    age: string
+    id: string;
+    age: string;
     arePetsPermittedwithRestrictions: boolean;
-    //activities	TODO: create interface for this;
+    activities: Activities[];
     activityDescription: string;
     locationDescription: string;
-    doFeesApply: boolean;    
+    doFeesApply: boolean;
     longDescription: string;
     season: string[];
-    //topics	TODO: create interface for this;
+    topics: Topics[];
     durationDescription: string;
     arePetsPermitted: boolean;
     timeOfDay: string[];
