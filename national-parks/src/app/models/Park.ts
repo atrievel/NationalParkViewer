@@ -1,6 +1,7 @@
 import { Activity } from './Activity';
 import { Address } from './Address';
 import { Contact } from './Contact';
+import { EntranceFee } from './EntranceFee';
 
 export interface Park {
     activities: Activity[];
@@ -10,7 +11,7 @@ export interface Park {
     designation: string;
     directionsInfo: string;
     directionsUrl: string;
-    //entranceFees: TODO: create interface for this;
+    entranceFees: EntranceFee[]
     //entrancePasses: TODO: create interface for this;
     fullName: string;
     id: string;
