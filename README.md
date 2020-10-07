@@ -46,6 +46,7 @@ Please read: Contributing.md
 
 * [Alec Trievel](https://github.com/atrievel)
 * [Thomas Lian Ødegaard](https://github.com/thomaslian)
+* [Nikolaj Dyring](https://github.com/NikoDyring)
 
 ## Questions
 
