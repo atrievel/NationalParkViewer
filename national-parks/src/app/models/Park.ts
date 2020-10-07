@@ -1,8 +1,9 @@
 import { Activity } from './Activity';
+import { Address } from './Address';
 
 export interface Park {
-    activities: Activity[]
-    // addresses: TODO: create interface for this;
+    activities: Activity[];
+    addresses: Address[];
     // contacts: TODO: create interface for this;
     description: string;
     designation: string;
