@@ -1,4 +1,4 @@
-export interface Crops {
+export interface Crop {
   aspectratio: number;
   url: string;
 }
