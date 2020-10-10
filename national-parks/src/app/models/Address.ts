@@ -5,10 +5,5 @@ export interface Address {
   line1: string;
   line2: string;
   line3: string;
-  type: Type
-}
-
-enum Type {
-  Physical = 'Physical',
-  Mailing = 'Mailing'
+  type: string
 }
