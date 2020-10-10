@@ -5,7 +5,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
-import { MaterialModule } from './modules/material.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import { MaterialModule } from './modules/shared/material.module';
+import { SharedModule } from './modules/shared/shared.module';
+
 
 @NgModule({
   declarations: [
@@ -15,7 +18,9 @@ import { MaterialModule } from './modules/material.module';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    MaterialModule
+    MaterialModule,
+    SharedModule,
+    FlexLayoutModule
   ],
   providers: [],
   bootstrap: [AppComponent]
